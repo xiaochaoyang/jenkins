@@ -19,7 +19,7 @@
     [super viewDidLoad];
     RequestData *data = [[RequestData alloc] initWithParameter:[PlayParameter new]];
 //    NSLog(@"2222");
-    NSLog(@"333");
+    NSLog(@"3336666");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
