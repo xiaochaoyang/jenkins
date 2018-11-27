@@ -14,6 +14,11 @@
 		609F020D212BFBFD00D89803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609F020B212BFBFD00D89803 /* LaunchScreen.storyboard */; };
 		609F0210212BFBFD00D89803 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F020F212BFBFD00D89803 /* main.m */; };
 		60C8652A21A7EE8400027DEF /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C8652921A7EE8400027DEF /* testTests.m */; };
+		60E2CFB021ACF22B00E8DE38 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E2CFAB21ACF22B00E8DE38 /* WebRTC.framework */; };
+		60E2CFB121ACF22B00E8DE38 /* socketio.html in Resources */ = {isa = PBXBuildFile; fileRef = 60E2CFAC21ACF22B00E8DE38 /* socketio.html */; };
+		60E2CFB221ACF22B00E8DE38 /* DWDrmServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E2CFAD21ACF22B00E8DE38 /* DWDrmServer.framework */; };
+		60E2CFB321ACF22B00E8DE38 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E2CFAE21ACF22B00E8DE38 /* IJKMediaFramework.framework */; };
+		60E2CFB421ACF22B00E8DE38 /* CCSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E2CFAF21ACF22B00E8DE38 /* CCSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,11 @@
 		60C8652721A7EE8300027DEF /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C8652921A7EE8400027DEF /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
 		60C8652B21A7EE8400027DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60E2CFAB21ACF22B00E8DE38 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
+		60E2CFAC21ACF22B00E8DE38 /* socketio.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = socketio.html; sourceTree = "<group>"; };
+		60E2CFAD21ACF22B00E8DE38 /* DWDrmServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DWDrmServer.framework; sourceTree = "<group>"; };
+		60E2CFAE21ACF22B00E8DE38 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		60E2CFAF21ACF22B00E8DE38 /* CCSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CCSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60E2CFB321ACF22B00E8DE38 /* IJKMediaFramework.framework in Frameworks */,
+				60E2CFB221ACF22B00E8DE38 /* DWDrmServer.framework in Frameworks */,
+				60E2CFB021ACF22B00E8DE38 /* WebRTC.framework in Frameworks */,
+				60E2CFB421ACF22B00E8DE38 /* CCSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,7 @@
 		609F01FF212BFBFC00D89803 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				60E2CFAA21ACF22B00E8DE38 /* CCSDK */,
 				609F0200212BFBFC00D89803 /* AppDelegate.h */,
 				609F0201212BFBFC00D89803 /* AppDelegate.m */,
 				609F0203212BFBFC00D89803 /* ViewController.h */,
@@ -101,6 +116,18 @@
 				60C8652B21A7EE8400027DEF /* Info.plist */,
 			);
 			path = testTests;
+			sourceTree = "<group>";
+		};
+		60E2CFAA21ACF22B00E8DE38 /* CCSDK */ = {
+			isa = PBXGroup;
+			children = (
+				60E2CFAB21ACF22B00E8DE38 /* WebRTC.framework */,
+				60E2CFAC21ACF22B00E8DE38 /* socketio.html */,
+				60E2CFAD21ACF22B00E8DE38 /* DWDrmServer.framework */,
+				60E2CFAE21ACF22B00E8DE38 /* IJKMediaFramework.framework */,
+				60E2CFAF21ACF22B00E8DE38 /* CCSDK.framework */,
+			);
+			path = CCSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				609F020D212BFBFD00D89803 /* LaunchScreen.storyboard in Resources */,
+				60E2CFB121ACF22B00E8DE38 /* socketio.html in Resources */,
 				609F020A212BFBFD00D89803 /* Assets.xcassets in Resources */,
 				609F0208212BFBFC00D89803 /* Main.storyboard in Resources */,
 			);
@@ -364,6 +392,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8XZR3BWP54;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/test/CCSDK",
+				);
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -384,6 +416,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8XZR3BWP54;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/test/CCSDK",
+				);
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
