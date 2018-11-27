@@ -9,9 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "PlayParameter.h"
-#import <IJKMediaFramework/IJKMediaPlayer.h>
-//#import "IJKMediaPlayback.h"
-//#import "IJKFFMoviePlayerController.h"
+#import "IJKMediaFramework/IJKMediaPlayback.h"
+#import "IJKMediaFramework/IJKFFMoviePlayerController.h"
 
 @protocol OfflinePlayBackDelegate <NSObject>
 @optional

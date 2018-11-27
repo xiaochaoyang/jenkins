@@ -1,14 +1,14 @@
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSInteger, ERROR_SERVICE_TYPE) {
-    ERROR_ROOM_STATE = 1001,//@"直播间状态不可用，可能没有开始推流"  ，直播未开始
-    ERROR_USELESS_INFO = 1002,//@"没有获取到有用的视频信息"       ，请求播放地址失败
+    ERROR_ROOM_STATE = 1001,//@"直播间状态不可用，可能没有开始推流"
+    ERROR_USELESS_INFO = 1002,//@"没有获取到有用的视频信息"
     ERROR_PASSWORD = 1003,//@"密码错误"
 };
 
 typedef NS_ENUM(NSInteger, ERROR_SYSTEM_TYPE) {
-    ERROR_RETURNDATA = 1004,//@"返回内容格式错误"         参数错误
-    ERROR_PARAMETER = 1005,//@"直播间信息填写错误"        参数错误
+    ERROR_RETURNDATA = 1004,//@"返回内容格式错误"
+    ERROR_PARAMETER = 1005,//@"直播间信息填写错误"
     ERROR_NETWORK = 1006,//@"网络异常"
 };
 
