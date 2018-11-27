@@ -25,6 +25,8 @@
 //    NSLog(@"7777777");
     NSLog(@"88888888");
 //>>>>>>> test
+//    NSLog(@"88888888");
+    NSLog(@"9999999");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
