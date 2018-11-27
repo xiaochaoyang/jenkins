@@ -14,11 +14,19 @@
 		609F020D212BFBFD00D89803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609F020B212BFBFD00D89803 /* LaunchScreen.storyboard */; };
 		609F0210212BFBFD00D89803 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F020F212BFBFD00D89803 /* main.m */; };
 		60C8652A21A7EE8400027DEF /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C8652921A7EE8400027DEF /* testTests.m */; };
-		60E5DFFE21AD339B00201C12 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E5DFF921AD339B00201C12 /* WebRTC.framework */; };
-		60E5DFFF21AD339B00201C12 /* socketio.html in Resources */ = {isa = PBXBuildFile; fileRef = 60E5DFFA21AD339B00201C12 /* socketio.html */; };
 		60E5E00021AD339B00201C12 /* DWDrmServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E5DFFB21AD339B00201C12 /* DWDrmServer.framework */; };
 		60E5E00121AD339B00201C12 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E5DFFC21AD339B00201C12 /* IJKMediaFramework.framework */; };
 		60E5E00221AD339B00201C12 /* CCSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E5DFFD21AD339B00201C12 /* CCSDK.framework */; };
+		60E5E00521AD36BB00201C12 /* socketio.html in Resources */ = {isa = PBXBuildFile; fileRef = 60E5E00321AD36BB00201C12 /* socketio.html */; };
+		60E5E00621AD36BB00201C12 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E5E00421AD36BB00201C12 /* WebRTC.framework */; };
+		60E5E00721AD36C500201C12 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E5E00421AD36BB00201C12 /* WebRTC.framework */; };
+		60E5E00821AD36C500201C12 /* WebRTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 60E5E00421AD36BB00201C12 /* WebRTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		60E5E00921AD36C500201C12 /* DWDrmServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E5DFFB21AD339B00201C12 /* DWDrmServer.framework */; };
+		60E5E00A21AD36C500201C12 /* DWDrmServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 60E5DFFB21AD339B00201C12 /* DWDrmServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		60E5E00B21AD36C500201C12 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E5DFFC21AD339B00201C12 /* IJKMediaFramework.framework */; };
+		60E5E00C21AD36C500201C12 /* IJKMediaFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 60E5DFFC21AD339B00201C12 /* IJKMediaFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		60E5E00D21AD36C500201C12 /* CCSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E5DFFD21AD339B00201C12 /* CCSDK.framework */; };
+		60E5E00E21AD36C500201C12 /* CCSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 60E5DFFD21AD339B00201C12 /* CCSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +46,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				60E5E00C21AD36C500201C12 /* IJKMediaFramework.framework in Embed Frameworks */,
+				60E5E00A21AD36C500201C12 /* DWDrmServer.framework in Embed Frameworks */,
+				60E5E00821AD36C500201C12 /* WebRTC.framework in Embed Frameworks */,
+				60E5E00E21AD36C500201C12 /* CCSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,11 +70,11 @@
 		60C8652721A7EE8300027DEF /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C8652921A7EE8400027DEF /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
 		60C8652B21A7EE8400027DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60E5DFF921AD339B00201C12 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
-		60E5DFFA21AD339B00201C12 /* socketio.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = socketio.html; sourceTree = "<group>"; };
 		60E5DFFB21AD339B00201C12 /* DWDrmServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DWDrmServer.framework; sourceTree = "<group>"; };
 		60E5DFFC21AD339B00201C12 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		60E5DFFD21AD339B00201C12 /* CCSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CCSDK.framework; sourceTree = "<group>"; };
+		60E5E00321AD36BB00201C12 /* socketio.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = socketio.html; sourceTree = "<group>"; };
+		60E5E00421AD36BB00201C12 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +84,12 @@
 			files = (
 				60E5E00121AD339B00201C12 /* IJKMediaFramework.framework in Frameworks */,
 				60E5E00021AD339B00201C12 /* DWDrmServer.framework in Frameworks */,
-				60E5DFFE21AD339B00201C12 /* WebRTC.framework in Frameworks */,
+				60E5E00921AD36C500201C12 /* DWDrmServer.framework in Frameworks */,
+				60E5E00D21AD36C500201C12 /* CCSDK.framework in Frameworks */,
 				60E5E00221AD339B00201C12 /* CCSDK.framework in Frameworks */,
+				60E5E00721AD36C500201C12 /* WebRTC.framework in Frameworks */,
+				60E5E00621AD36BB00201C12 /* WebRTC.framework in Frameworks */,
+				60E5E00B21AD36C500201C12 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +150,8 @@
 		60E5DFF821AD339B00201C12 /* CCSDK */ = {
 			isa = PBXGroup;
 			children = (
-				60E5DFF921AD339B00201C12 /* WebRTC.framework */,
-				60E5DFFA21AD339B00201C12 /* socketio.html */,
+				60E5E00321AD36BB00201C12 /* socketio.html */,
+				60E5E00421AD36BB00201C12 /* WebRTC.framework */,
 				60E5DFFB21AD339B00201C12 /* DWDrmServer.framework */,
 				60E5DFFC21AD339B00201C12 /* IJKMediaFramework.framework */,
 				60E5DFFD21AD339B00201C12 /* CCSDK.framework */,
@@ -225,7 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				609F020D212BFBFD00D89803 /* LaunchScreen.storyboard in Resources */,
-				60E5DFFF21AD339B00201C12 /* socketio.html in Resources */,
+				60E5E00521AD36BB00201C12 /* socketio.html in Resources */,
 				609F020A212BFBFD00D89803 /* Assets.xcassets in Resources */,
 				609F0208212BFBFC00D89803 /* Main.storyboard in Resources */,
 			);
